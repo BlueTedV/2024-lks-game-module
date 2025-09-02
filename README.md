@@ -5,3 +5,4 @@ Yang belum ada :
 3. leaderboard belum ada
 4. score, user, waktu display belum ada
 5. level 1,2,3 masih sama semua
+6. boom.png belum muncul
