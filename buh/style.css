@@ -1,0 +1,80 @@
+body, .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 194px;
+  height: 154px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.username-input,
+.level-select {
+  width: 194px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.guns img {
+  width: 120px;
+  height: 100px;
+}
+
+.play-game {
+  width: 200px;
+  padding: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.instruction-btn {
+  width: 200px;
+  padding: 20px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.instruction-text {
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 40px;
+  width: 300px;
+  background: whitesmoke;
+  border: 2px solid grey;
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 100;
+  text-align: left;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#board {
+    display: none
+}
